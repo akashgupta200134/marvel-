@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background:linear-gradient(to right,#808080c8,#d29e6ec1);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-size:60%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    display:
+    flex;
+    justify-content:center;
+    align-items:center;
+    gap:75px;
+}
+
+.widow{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:270px;
+    min-width:250px;
+    width:470px;
+    background:#fff;
+    position:relative;
+    background:linear-gradient(to right, #5e5c5c ,#252424);
+    box-shadow:rgba(0,0,0,24) 0px 3px 8px;
+
+}
+.widow .content{
+    margin-top:2px;
+    position:absolute;
+    left:0;
+    top:0;
+    padding-left:10px;
+}
+.widow .heading{
+    font-size:2.2rem;
+    transition:0.4s;
+    color:#38393ab8;
+    
+}
+.widow:hover .heading{
+    font-size:2.0rem;
+    color:#0b0b0b;
+   
+}
+.widow .black{
+    margin-top:5px;
+    width:235px;
+    font-size:1.2rem;
+    transition:0.4s;
+    opacity:0;
+    color:#88919b;
+
+}
+.widow .btn{
+    margin-top: 5px;
+    padding: 0.2rem 1rem;
+    border: 2px solid #6f7a85;
+    transition: 0.4s;
+    text-decoration:none;
+    display:inline-block;
+    cursor:pointer;
+    color:#6f7a85;
+    font-size:1.2 rem;
+    text-align:center;
+    border-radius:10px;
+    font-weight:500;
+    opacity:0;
+    box-shadow:rgba(0,0,0,24) 0px  3px 8px;
+
+}
+.widow .btn:hover{
+    background: #6f7a85;
+    color:#ffffffaf;
+
+}
+
+.widow:hover .black,
+.widow:hover .btn{
+    opacity:1;
+}
+
+.widow img{
+    position: absolute;
+    top: -55%;
+    left: 28%;
+    width: 250px;
+    height: auto;
+    transform: 0.5s;
+}
+.widow:hover img{
+    top: -62%;
+    left: 50%;
+    scale: 110%;
+}
+
+.marvel{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:270px;
+    min-width:250px;
+    width:470px;
+    background:#fff;
+    position:relative;
+    background:linear-gradient(to right, #030a1c ,#532c2c);
+    box-shadow:rgba(0,0,0,24) 0px 3px 8px;
+
+}
+.marvel .content{
+margin-top:2px;
+position:absolute;
+left:0;
+top: 0px;
+padding-left:10px;
+}
+.marvel .heading{
+    font-size:2.2rem;
+    transition:0.4s;
+    color:#f4faff54;
+    pointer-events: none;
+}
+.marvel:hover .heading{
+    font-size:2.0rem;
+    color:#ecf0f4b5;
+    pointer-events:none;
+    transition: 0.4s;
+
+}
+
+.marvel .black{
+    margin-top:5px;
+    width:235px;
+    font-size:1.2rem;
+    transition:0.4s;
+    opacity:0;
+    color:#88919b;
+}
+.marvel .btn{
+    margin-top: 15px;
+    padding: 0.2rem 1rem;
+    border: 2px solid #6f7a85;
+    transition: 0.4s;
+    text-decoration:none;
+    display:inline-block;
+    cursor:pointer;
+    color:#6f7a85;
+    font-size:1.2 rem;
+    text-align:center;
+    border-radius:10px;
+    font-weight:500;
+    opacity:0;
+    box-shadow:rgba(0,0,0,24) 0px  3px 8px;
+}
+.marvel .btn:hover{
+    background: #6f7a85;
+    color:#ffffffaf;
+
+}
+.marvel:hover .black,
+.marvel:hover .btn{
+    opacity:1;
+}
+.marvel img{
+    position: absolute;
+    top:-55%;
+    left:220px;
+    width:200px;
+    height:auto;
+    transform: 0.5s;
+}
+.marvel:hover img{
+    top:-58%;
+    left:68%;
+    scale: 110%;
+}
+
+h2{
+    position: relative;
+    top: 25%;
+    left: -39%;
+}
